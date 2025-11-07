@@ -1,0 +1,33 @@
+Reactjs:
+    SPA: client: NO SEO 
+
+
+===== Buổi 1 =====
+    - Component: jsx
+        * Stateful: class => logic
+        * Stateless: function => logic
+    - DataBinding - rendering element: {}
+    - Event Handle: 
+        - onclick="demoFnc"
+        - onclick={() => {demoFnc(1,2,3)}}
+    - Render Condition
+
+
+===== Buổi 2 =====
+    - State: Khi có sự thay đổi về giá trị => Component re-render
+        - setState bị bất đồng bộ
+        - setState truyền vào callback
+
+
+===== Buổi 3 =====
+    - List keys
+    - Communicate:
+        - Props: Truyền data từ component cha => component con
+        - Lifting state up: Truyền data từ component con => component cha
+
+
+===== Buổi 4 =====
+    Shopping Phone
+
+
+Hooks: useState
