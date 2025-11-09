@@ -8,7 +8,8 @@
 // import ListKeys from "./Listkeys";
 // import Communicate from "./Communicate";
 // import ShoppingPhone from "./ShoppingPhone";
-import ShoeStore from "./ShoeShopping";
+// import ShoeStore from "./ShoeShopping";
+import ShoppingPhoneRedux from "./ShoppingPhoneRedux/index.jsx";
 
 const App = () => {
   return (
@@ -21,8 +22,9 @@ const App = () => {
       {/* <ExampleCar /> */}
       {/* <ListKeys /> */}
       {/* <Communicate /> */}
-      {/* <ShoppingPhone /> */}
-      <ShoeStore />
+        {/* <ShoppingPhone /> */}
+         <ShoppingPhoneRedux />
+      {/*<ShoeStore />*/}
     </div>
   );
 };
